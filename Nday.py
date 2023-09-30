@@ -9,7 +9,7 @@ print("This is Version: " + Version)
 
 user_agent = input("Enter your desired user-agent: ")
 headers = {
-    "User-Agent": user_agent,
+    "User-Agent": user_agent + "Using 9003's Nday Spec Checker Discord: @9003"
 }
 
 filename = "puppet.csv"
